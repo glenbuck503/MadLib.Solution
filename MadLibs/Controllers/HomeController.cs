@@ -5,7 +5,7 @@ namespace MadLibs.Controllers
 {
   public class HomeController : Controller
   {
-    [Route("/")]
+    [Route("/form")]
     public ActionResult Form() { return View(); }
   
 
@@ -18,5 +18,12 @@ namespace MadLibs.Controllers
 
       return View(myLetterVariable);
     }
+
+  //   [Route("/puppy-story")]
+  //   public ActionResult Puppy()
+  //   {
+      
+  //   }
+  // }
   }
 }
